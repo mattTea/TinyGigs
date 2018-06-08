@@ -33,6 +33,7 @@ var venueHref = [
   {venueName: 'St Moritz', venueUrl: 'http://www.stmoritzclub.co.uk/whats-on'},
   {venueName: 'Lock Tavern', venueUrl: 'http://www.lock-tavern.com/event-list/'},
   {venueName: 'Black Heart', venueUrl: 'http://www.ourblackheart.com/'},
+  {venueName: 'The Black Heart', venueUrl: 'http://www.ourblackheart.com/'},
   {venueName: 'Purple Turtle', venueUrl: 'http://www.purpleturtlebar.com/camden_holding/index.html'},
   {venueName: 'Victoria', venueUrl: 'http://www.jaguarshoes.com/venues/the-victoria/'},
   {venueName: 'Cafe Oto', venueUrl: 'https://www.cafeoto.co.uk/events/'},
