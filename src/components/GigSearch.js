@@ -19,9 +19,9 @@ export default class GigSearch extends React.Component {
 
     var renderFindGigsButton = () => {
       if (gigType === 'theatre') {
-        return <button className="button expanded hollow">Find tiny plays</button>
+        return <button className="button">Find tiny <span style={{color: "white"}}>plays</span></button>
       } else {
-        return <button className="button expanded hollow">Find tiny gigs</button>
+        return <button className="button">Find tiny <span style={{color: "white"}}>gigs</span></button>
       }
     };
 

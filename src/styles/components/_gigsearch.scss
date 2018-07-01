@@ -1,11 +1,25 @@
 .button {
-  background: transparent;
-  border-color: $blue;
-  border: 400;
-  color: $blue;
-  font-size: $s-size;
-  font-weight: bold;
+  background-color: $dark-red;
+  border: none;
+  color: $pink;
+  border-radius: 10px 10px 10px 10px;;
+  box-shadow: 1.5px 1.5px .75px black;
+  font-size: 2rem;
   padding: $s-size;
   text-align: center;
   width: 100%;
+}
+
+.button:hover {
+  background-color: $red;
+}
+
+.button:active {
+  background-color: $red;
+  box-shadow: .75px .75px .5px black;
+  transform: translate(.75px, .75px);
+}
+
+.button:focus {
+  outline: none !important;
 }

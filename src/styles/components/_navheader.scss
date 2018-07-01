@@ -1,3 +1,28 @@
+// TODOs
+// if on /gigs show music button as inactive (and same for plays)
+// might be harder than I though... will need to get either gigTpe state or "/" route into header 
+
+.gigtype-button {
+  align-items: center;
+  background-color: $dark-red;
+  border-radius: 50%;
+  box-shadow: 1.5px 1.5px .75px black;
+  display: flex;
+  height: 3.2em;
+  justify-content: center;
+  width: 3.2em;
+}
+
+.gigtype-button:hover {
+  background-color: $red;
+}
+
+.gigtype-button:active {
+  background-color: $red;
+  box-shadow: .75px .75px .5px black;
+  transform: translate(.75px, .75px);
+}
+
 .vertical-align {
   display: flex;
   justify-content: center;
